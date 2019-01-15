@@ -1863,3 +1863,5 @@ Caused by: org.xml.sax.SAXParseExceptionpublicId: platform:/resource/store-manag
 
 !ENTRY org.eclipse.m2e.logback.appender 2 0 2019-01-15 13:59:59.825
 !MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+!MESSAGE The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
