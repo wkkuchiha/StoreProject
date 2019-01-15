@@ -20,5 +20,20 @@
   <modules>
   	<module>store-manager-dao</module>
   	<module>store-manager-pojo</module>
+  	<module>store-manager-interface</module>
+  	<module>store-manager-service</module>
   </modules>
+  
+  <build>
+    <plugins>
+      <plugin>
+        <groupId>org.apache.tomcat.maven</groupId>
+        <artifactId>tomcat7-maven-plugin</artifactId> 
+        <configuration>
+          <path>/</path>
+          <port>8082</port>
+        </configuration>
+      </plugin>
+    </plugins>
+  </build>
 </project>
