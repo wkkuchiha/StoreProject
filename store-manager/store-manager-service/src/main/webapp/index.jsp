@@ -7,10 +7,6 @@
 <title>Insert title here</title>
 </head>
 <body>
-
-<h1>
-  hello store 1234
-</h1>
-
+  <h1>hello 1234</h1>
 </body>
 </html>

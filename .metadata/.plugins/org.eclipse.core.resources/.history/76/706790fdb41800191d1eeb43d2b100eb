@@ -1,0 +1,11 @@
+package com.store.controller;
+
+import org.springframework.stereotype.Controller;
+
+/**
+ * 当前管理Controller
+ */
+@Controller
+public class ItemController {
+
+}
