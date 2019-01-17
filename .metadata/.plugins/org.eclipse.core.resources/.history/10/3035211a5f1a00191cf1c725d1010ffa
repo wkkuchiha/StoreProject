@@ -1,0 +1,35 @@
+package com.store.service.impl;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.github.pagehelper.PageHelper;
+import com.store.common.pojo.EasyUIDataGridResult;
+import com.store.mapper.TbItemMapper;
+import com.store.pojo.TbItem;
+import com.store.service.ItemService;
+
+/**
+ * 商品管理服务 
+ */
+@Service
+public class ItemServiceImpl implements ItemService {
+
+	@Autowired
+	private TbItemMapper itemMapper;
+	@Override
+	public TbItem getItemById(long itemId) {
+		
+	    TbItem item = itemMapper.selectByPrimaryKey(itemId);
+		return item;
+	}
+	
+	@Override
+	public EasyUIDataGridResult getItemList(int page, int rows) {
+		 
+		// 设置分页信息
+		PageHelper.startPage(page,rows);
+		return null;
+	}
+
+}

@@ -1,0 +1,11 @@
+package com.store.controller;
+
+import org.springframework.stereotype.Controller;
+
+/**
+ *  页面展示
+ * */
+@Controller
+public class PageController {
+
+}

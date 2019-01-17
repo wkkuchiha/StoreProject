@@ -1,0 +1,14 @@
+package com.store.pagehelper;
+import com.github.pagehelper.PageHelper;
+import com.github.pagehelper.PageInfo;
+
+public class TestPageHelper {
+   public void testPageHelper() throws Exception {
+	   // 在mybatis中配置分页插件
+	   
+	   // 在执行分页之前配置分页条件 使用pagehelper的静态方法
+	   PageHelper.startPage(1, 10);
+	   // 执行查询
+	   // 取分页信息 使用pageinfo对象取
+   }
+}
