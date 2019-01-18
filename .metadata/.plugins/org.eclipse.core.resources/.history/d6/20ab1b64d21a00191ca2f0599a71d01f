@@ -1,0 +1,19 @@
+package com.store.service.impl;
+
+import java.util.List;
+import com.store.common.pojo.EasyUITreeNode;
+import com.store.service.ItemCatService;
+ 
+/*
+ * 商品分类管理
+ */
+public class ItemCatServiceImpl implements ItemCatService {
+
+	@Override
+	public List<EasyUITreeNode> getItemCatList(long parentId) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	 
+}

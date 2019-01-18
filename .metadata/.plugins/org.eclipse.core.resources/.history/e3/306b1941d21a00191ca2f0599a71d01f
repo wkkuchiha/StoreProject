@@ -1,0 +1,21 @@
+package com.store.service.impl;
+
+import com.store.common.pojo.EasyUIDataGridResult;
+import com.store.pojo.TbItem;
+import com.store.service.ItemService;
+
+public class ItemCatServiceImpl implements ItemService {
+
+	@Override
+	public TbItem getItemById(long itemId) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public EasyUIDataGridResult getItemList(int page, int rows) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

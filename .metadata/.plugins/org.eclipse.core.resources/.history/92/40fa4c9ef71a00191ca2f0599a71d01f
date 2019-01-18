@@ -1,0 +1,17 @@
+package com.store.fastdfs;
+
+import org.csource.fastdfs.ClientGlobal;
+
+public class TestFastDfs {
+   public void uploadFile() throws Exception {
+	   // 项目工程中添加架包
+	   // 创建一个配置文件,配置一下tracker服务器对的地址
+	   // 加载配置文件
+	   ClientGlobal.init("F:/StoreProject/store-manager-web/src/main/resources/resource/client.cnf");
+	   // 创建一个trackerClient对象
+	   // 使用trackClient对象活的trackServer对象
+	   // 创建一个StorageServer的引用 null就可以
+	   // 创建一个StorageClient对象，trackerServer，storageServer两个参数
+	   // 使用StorageClient上传对象
+   }
+}
