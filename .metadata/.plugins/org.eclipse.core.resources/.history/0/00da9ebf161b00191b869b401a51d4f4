@@ -1,0 +1,12 @@
+package com.store.portal.controller;
+
+/**
+ *  首页展示
+ */
+@Controller
+public class IndexController {
+   @RequestMapping("/")
+   public String showIndex() {
+	   
+   }
+}

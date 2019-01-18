@@ -7,14 +7,8 @@
 		<list key="name">
 		</list>
 		<list key="artifactId">
-			<item value="store-manager-web"/>
+			<item value="store-portal-web"/>
 			<item value="store-parent"/>
-			<item value="store-manager-service"/>
-			<item value="store-manager"/>
-			<item value="store-manager-interface"/>
-			<item value="store-manager-pojo"/>
-			<item value="store-manager-dao"/>
-			<item value="store-common"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
@@ -81,6 +75,7 @@
 	</section>
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
+			<item value="F:\StoreProject\store-parent"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
